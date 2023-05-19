@@ -4,7 +4,7 @@
 import numpy as np
 from scipy.optimize import minimize
 
-
+#UAV-specific code
 def some_cost_function(state, action_value):
     # Calculate the Euclidean distance between current position and goal position
     current_pos = (state['pos-x'], state['pos-y'], state['pos-z'])
